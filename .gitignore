@@ -1,0 +1,16 @@
+# Python environment and cache
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Dataset and large intermediate files
+data/raw/
+*.wav
+*.npy
+*.npz
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db

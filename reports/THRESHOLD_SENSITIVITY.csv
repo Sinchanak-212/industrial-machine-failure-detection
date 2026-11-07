@@ -1,0 +1,81 @@
+experiment,section,threshold_percentile,threshold,n,roc_auc,accuracy,precision,recall,f1,true_negatives,false_positives,false_negatives,true_positives,target_fpr,target_labels_used_for_threshold,use
+Shared Mel CNN,section_00,90.0,0.01640138998627663,200,0.4725,0.48,0.45,0.18,0.2571428571428571,78,22,82,18,0.22,False,sensitivity analysis only; not threshold selection
+Shared Mel CNN,section_01,90.0,0.01640138998627663,200,0.46659999999999996,0.52,0.5625,0.18,0.2727272727272727,86,14,82,18,0.14,False,sensitivity analysis only; not threshold selection
+Shared Mel CNN,section_02,90.0,0.01640138998627663,200,0.6261,0.505,0.6666666666666666,0.02,0.038834951456310676,99,1,98,2,0.01,False,sensitivity analysis only; not threshold selection
+Shared Mel CNN,macro,90.0,,600,0.5217333333333333,0.5016666666666666,0.5597222222222222,0.12666666666666668,0.18956836044214684,263,37,262,38,0.12333333333333334,False,sensitivity analysis only; not threshold selection
+Shared Mel CNN,section_00,95.0,0.017373948730528353,200,0.4725,0.49,0.4642857142857143,0.13,0.203125,85,15,87,13,0.15,False,sensitivity analysis only; not threshold selection
+Shared Mel CNN,section_01,95.0,0.017373948730528353,200,0.46659999999999996,0.485,0.42105263157894735,0.08,0.13445378151260504,89,11,92,8,0.11,False,sensitivity analysis only; not threshold selection
+Shared Mel CNN,section_02,95.0,0.017373948730528353,200,0.6261,0.505,1.0,0.01,0.019801980198019802,100,0,99,1,0.0,False,sensitivity analysis only; not threshold selection
+Shared Mel CNN,macro,95.0,,600,0.5217333333333333,0.49333333333333335,0.6284461152882206,0.07333333333333335,0.11912692057020828,274,26,278,22,0.08666666666666667,False,sensitivity analysis only; not threshold selection
+Shared Mel CNN,section_00,97.5,0.018356432672590017,200,0.4725,0.505,0.5217391304347826,0.12,0.1951219512195122,89,11,88,12,0.11,False,sensitivity analysis only; not threshold selection
+Shared Mel CNN,section_01,97.5,0.018356432672590017,200,0.46659999999999996,0.5,0.5,0.06,0.10714285714285714,94,6,94,6,0.06,False,sensitivity analysis only; not threshold selection
+Shared Mel CNN,section_02,97.5,0.018356432672590017,200,0.6261,0.5,0.0,0.0,0.0,100,0,100,0,0.0,False,sensitivity analysis only; not threshold selection
+Shared Mel CNN,macro,97.5,,600,0.5217333333333333,0.5016666666666666,0.34057971014492755,0.06,0.10075493612078978,283,17,282,18,0.056666666666666664,False,sensitivity analysis only; not threshold selection
+Shared Mel CNN,section_00,99.0,0.019507918357849135,200,0.4725,0.505,0.5333333333333333,0.08,0.1391304347826087,93,7,92,8,0.07,False,sensitivity analysis only; not threshold selection
+Shared Mel CNN,section_01,99.0,0.019507918357849135,200,0.46659999999999996,0.495,0.4,0.02,0.0380952380952381,97,3,98,2,0.03,False,sensitivity analysis only; not threshold selection
+Shared Mel CNN,section_02,99.0,0.019507918357849135,200,0.6261,0.5,0.0,0.0,0.0,100,0,100,0,0.0,False,sensitivity analysis only; not threshold selection
+Shared Mel CNN,macro,99.0,,600,0.5217333333333333,0.5,0.3111111111111111,0.03333333333333333,0.0590752242926156,290,10,290,10,0.03333333333333333,False,sensitivity analysis only; not threshold selection
+Section-specific Mel CNN,section_00,90.0,0.024392401799559593,200,0.4551,0.49,0.46153846153846156,0.12,0.19047619047619047,86,14,88,12,0.14,False,sensitivity analysis only; not threshold selection
+Section-specific Mel CNN,section_01,90.0,0.027993835508823395,200,0.5529000000000001,0.53,0.5625,0.27,0.36486486486486486,79,21,73,27,0.21,False,sensitivity analysis only; not threshold selection
+Section-specific Mel CNN,section_02,90.0,0.02607850171625614,200,0.6463,0.535,0.8888888888888888,0.08,0.14678899082568808,99,1,92,8,0.01,False,sensitivity analysis only; not threshold selection
+Section-specific Mel CNN,macro,90.0,,600,0.5514333333333333,0.5183333333333334,0.6376424501424501,0.15666666666666668,0.23404334872224783,264,36,253,47,0.12,False,sensitivity analysis only; not threshold selection
+Section-specific Mel CNN,section_00,95.0,0.025971461087465286,200,0.4551,0.5,0.5,0.1,0.16666666666666666,90,10,90,10,0.1,False,sensitivity analysis only; not threshold selection
+Section-specific Mel CNN,section_01,95.0,0.028788059949874878,200,0.5529000000000001,0.545,0.6285714285714286,0.22,0.32592592592592595,87,13,78,22,0.13,False,sensitivity analysis only; not threshold selection
+Section-specific Mel CNN,section_02,95.0,0.026857808232307434,200,0.6463,0.515,0.8,0.04,0.0761904761904762,99,1,96,4,0.01,False,sensitivity analysis only; not threshold selection
+Section-specific Mel CNN,macro,95.0,,600,0.5514333333333333,0.52,0.6428571428571429,0.12,0.18959435626102294,276,24,264,36,0.08,False,sensitivity analysis only; not threshold selection
+Section-specific Mel CNN,section_00,97.5,0.02692908514291048,200,0.4551,0.51,0.5714285714285714,0.08,0.14035087719298245,94,6,92,8,0.06,False,sensitivity analysis only; not threshold selection
+Section-specific Mel CNN,section_01,97.5,0.030325341038405895,200,0.5529000000000001,0.495,0.47368421052631576,0.09,0.15126050420168066,90,10,91,9,0.1,False,sensitivity analysis only; not threshold selection
+Section-specific Mel CNN,section_02,97.5,0.027359716594219208,200,0.6463,0.51,0.75,0.03,0.057692307692307696,99,1,97,3,0.01,False,sensitivity analysis only; not threshold selection
+Section-specific Mel CNN,macro,97.5,,600,0.5514333333333333,0.505,0.5983709273182957,0.06666666666666667,0.11643456302899029,283,17,280,20,0.05666666666666667,False,sensitivity analysis only; not threshold selection
+Section-specific Mel CNN,section_00,99.0,0.027659637853503227,200,0.4551,0.51,0.5833333333333334,0.07,0.125,95,5,93,7,0.05,False,sensitivity analysis only; not threshold selection
+Section-specific Mel CNN,section_01,99.0,0.03116455487906933,200,0.5529000000000001,0.49,0.4,0.04,0.07272727272727272,94,6,96,4,0.06,False,sensitivity analysis only; not threshold selection
+Section-specific Mel CNN,section_02,99.0,0.027473153546452522,200,0.6463,0.51,0.75,0.03,0.057692307692307696,99,1,97,3,0.01,False,sensitivity analysis only; not threshold selection
+Section-specific Mel CNN,macro,99.0,,600,0.5514333333333333,0.5033333333333333,0.5777777777777778,0.04666666666666667,0.08513986013986014,288,12,286,14,0.04,False,sensitivity analysis only; not threshold selection
+Section-specific MFCC CNN,section_00,90.0,0.003057269612327218,200,0.7126000000000001,0.625,0.8048780487804879,0.33,0.46808510638297873,92,8,67,33,0.08,False,sensitivity analysis only; not threshold selection
+Section-specific MFCC CNN,section_01,90.0,0.003981183748692274,200,0.5323,0.515,0.5283018867924528,0.28,0.3660130718954248,75,25,72,28,0.25,False,sensitivity analysis only; not threshold selection
+Section-specific MFCC CNN,section_02,90.0,0.0029012002050876617,200,0.5824,0.58,0.6481481481481481,0.35,0.45454545454545453,81,19,65,35,0.19,False,sensitivity analysis only; not threshold selection
+Section-specific MFCC CNN,macro,90.0,,600,0.6091000000000001,0.5733333333333334,0.6604426945736963,0.32,0.4295478776079527,248,52,204,96,0.17333333333333334,False,sensitivity analysis only; not threshold selection
+Section-specific MFCC CNN,section_00,95.0,0.0034717905800789595,200,0.7126000000000001,0.515,0.6153846153846154,0.08,0.1415929203539823,95,5,92,8,0.05,False,sensitivity analysis only; not threshold selection
+Section-specific MFCC CNN,section_01,95.0,0.004484925419092178,200,0.5323,0.485,0.3333333333333333,0.03,0.05504587155963303,94,6,97,3,0.06,False,sensitivity analysis only; not threshold selection
+Section-specific MFCC CNN,section_02,95.0,0.0031985826790332794,200,0.5824,0.505,0.5454545454545454,0.06,0.10810810810810811,95,5,94,6,0.05,False,sensitivity analysis only; not threshold selection
+Section-specific MFCC CNN,macro,95.0,,600,0.6091000000000001,0.5016666666666666,0.49805749805749805,0.056666666666666664,0.10158230000724115,284,16,283,17,0.05333333333333334,False,sensitivity analysis only; not threshold selection
+Section-specific MFCC CNN,section_00,97.5,0.003570916596800089,200,0.7126000000000001,0.5,0.5,0.05,0.09090909090909091,95,5,95,5,0.05,False,sensitivity analysis only; not threshold selection
+Section-specific MFCC CNN,section_01,97.5,0.004885131260380149,200,0.5323,0.495,0.3333333333333333,0.01,0.019417475728155338,98,2,99,1,0.02,False,sensitivity analysis only; not threshold selection
+Section-specific MFCC CNN,section_02,97.5,0.003517676261253655,200,0.5824,0.505,0.6,0.03,0.05714285714285714,98,2,97,3,0.02,False,sensitivity analysis only; not threshold selection
+Section-specific MFCC CNN,macro,97.5,,600,0.6091000000000001,0.5,0.4777777777777777,0.03,0.05582314126003446,291,9,291,9,0.030000000000000002,False,sensitivity analysis only; not threshold selection
+Section-specific MFCC CNN,section_00,99.0,0.004075054079294205,200,0.7126000000000001,0.51,1.0,0.02,0.0392156862745098,100,0,98,2,0.0,False,sensitivity analysis only; not threshold selection
+Section-specific MFCC CNN,section_01,99.0,0.004981562960892916,200,0.5323,0.49,0.0,0.0,0.0,98,2,100,0,0.02,False,sensitivity analysis only; not threshold selection
+Section-specific MFCC CNN,section_02,99.0,0.00368669955059886,200,0.5824,0.51,0.75,0.03,0.057692307692307696,99,1,97,3,0.01,False,sensitivity analysis only; not threshold selection
+Section-specific MFCC CNN,macro,99.0,,600,0.6091000000000001,0.5033333333333333,0.5833333333333334,0.016666666666666666,0.032302664655605835,297,3,295,5,0.01,False,sensitivity analysis only; not threshold selection
+MFCC frame-level P95,section_00,90.0,0.00472552003338933,200,0.6776,0.6,0.7631578947368421,0.29,0.42028985507246375,91,9,71,29,0.09,False,sensitivity analysis only; not threshold selection
+MFCC frame-level P95,section_01,90.0,0.006139146629720926,200,0.5234000000000001,0.485,0.4666666666666667,0.21,0.2896551724137931,76,24,79,21,0.24,False,sensitivity analysis only; not threshold selection
+MFCC frame-level P95,section_02,90.0,0.004621195141226053,200,0.5328,0.545,0.6551724137931034,0.19,0.29457364341085274,90,10,81,19,0.1,False,sensitivity analysis only; not threshold selection
+MFCC frame-level P95,macro,90.0,,600,0.5779333333333333,0.5433333333333333,0.6283323250655374,0.22999999999999998,0.3348395569657032,257,43,231,69,0.1433333333333333,False,sensitivity analysis only; not threshold selection
+MFCC frame-level P95,section_00,95.0,0.005331652704626322,200,0.6776,0.53,0.6875,0.11,0.1896551724137931,95,5,89,11,0.05,False,sensitivity analysis only; not threshold selection
+MFCC frame-level P95,section_01,95.0,0.007275357376784086,200,0.5234000000000001,0.49,0.4,0.04,0.07272727272727272,94,6,96,4,0.06,False,sensitivity analysis only; not threshold selection
+MFCC frame-level P95,section_02,95.0,0.004766230471432209,200,0.5328,0.52,0.6,0.12,0.2,92,8,88,12,0.08,False,sensitivity analysis only; not threshold selection
+MFCC frame-level P95,macro,95.0,,600,0.5779333333333333,0.5133333333333333,0.5625,0.09000000000000001,0.1541274817136886,281,19,273,27,0.06333333333333334,False,sensitivity analysis only; not threshold selection
+MFCC frame-level P95,section_00,97.5,0.005535021191462874,200,0.6776,0.5,0.5,0.05,0.09090909090909091,95,5,95,5,0.05,False,sensitivity analysis only; not threshold selection
+MFCC frame-level P95,section_01,97.5,0.008354761637747288,200,0.5234000000000001,0.49,0.0,0.0,0.0,98,2,100,0,0.02,False,sensitivity analysis only; not threshold selection
+MFCC frame-level P95,section_02,97.5,0.005496652331203222,200,0.5328,0.505,0.5555555555555556,0.05,0.09174311926605505,96,4,95,5,0.04,False,sensitivity analysis only; not threshold selection
+MFCC frame-level P95,macro,97.5,,600,0.5779333333333333,0.49833333333333335,0.35185185185185186,0.03333333333333333,0.060884070058381985,289,11,290,10,0.036666666666666674,False,sensitivity analysis only; not threshold selection
+MFCC frame-level P95,section_00,99.0,0.006629692856222391,200,0.6776,0.5,0.5,0.03,0.05660377358490566,97,3,97,3,0.03,False,sensitivity analysis only; not threshold selection
+MFCC frame-level P95,section_01,99.0,0.008784918114542961,200,0.5234000000000001,0.49,0.0,0.0,0.0,98,2,100,0,0.02,False,sensitivity analysis only; not threshold selection
+MFCC frame-level P95,section_02,99.0,0.006568297278136015,200,0.5328,0.505,0.6,0.03,0.05714285714285714,98,2,97,3,0.02,False,sensitivity analysis only; not threshold selection
+MFCC frame-level P95,macro,99.0,,600,0.5779333333333333,0.49833333333333335,0.3666666666666667,0.02,0.03791554357592094,293,7,294,6,0.023333333333333334,False,sensitivity analysis only; not threshold selection
+MFCC + Isolation Forest,section_00,90.0,-0.0015490702118083899,200,0.608,0.535,0.6206896551724138,0.18,0.27906976744186046,89,11,82,18,0.11,False,sensitivity analysis only; not threshold selection
+MFCC + Isolation Forest,section_01,90.0,-0.010938415703669435,200,0.5633,0.555,0.6122448979591837,0.3,0.40268456375838924,81,19,70,30,0.19,False,sensitivity analysis only; not threshold selection
+MFCC + Isolation Forest,section_02,90.0,-0.012183455901832119,200,0.6603,0.505,1.0,0.01,0.019801980198019802,100,0,99,1,0.0,False,sensitivity analysis only; not threshold selection
+MFCC + Isolation Forest,macro,90.0,,600,0.6105333333333333,0.5316666666666667,0.7443115177105325,0.16333333333333333,0.23385210379942314,270,30,251,49,0.09999999999999999,False,sensitivity analysis only; not threshold selection
+MFCC + Isolation Forest,section_00,95.0,0.008647482987658606,200,0.608,0.5,0.5,0.08,0.13793103448275862,92,8,92,8,0.08,False,sensitivity analysis only; not threshold selection
+MFCC + Isolation Forest,section_01,95.0,0.010340601839663344,200,0.5633,0.535,0.6296296296296297,0.17,0.2677165354330709,90,10,83,17,0.1,False,sensitivity analysis only; not threshold selection
+MFCC + Isolation Forest,section_02,95.0,0.013638040239899119,200,0.6603,0.5,0.0,0.0,0.0,100,0,100,0,0.0,False,sensitivity analysis only; not threshold selection
+MFCC + Isolation Forest,macro,95.0,,600,0.6105333333333333,0.5116666666666667,0.37654320987654327,0.08333333333333333,0.13521585663860983,282,18,275,25,0.06,False,sensitivity analysis only; not threshold selection
+MFCC + Isolation Forest,section_00,97.5,0.020629267108503768,200,0.608,0.49,0.375,0.03,0.05555555555555555,95,5,97,3,0.05,False,sensitivity analysis only; not threshold selection
+MFCC + Isolation Forest,section_01,97.5,0.022923065103456375,200,0.5633,0.545,0.7368421052631579,0.14,0.23529411764705882,95,5,86,14,0.05,False,sensitivity analysis only; not threshold selection
+MFCC + Isolation Forest,section_02,97.5,0.022688160562298554,200,0.6603,0.5,0.0,0.0,0.0,100,0,100,0,0.0,False,sensitivity analysis only; not threshold selection
+MFCC + Isolation Forest,macro,97.5,,600,0.6105333333333333,0.5116666666666667,0.37061403508771934,0.05666666666666667,0.09694989106753811,290,10,283,17,0.03333333333333333,False,sensitivity analysis only; not threshold selection
+MFCC + Isolation Forest,section_00,99.0,0.02932657579193476,200,0.608,0.49,0.25,0.01,0.019230769230769232,97,3,99,1,0.03,False,sensitivity analysis only; not threshold selection
+MFCC + Isolation Forest,section_01,99.0,0.07800540111338361,200,0.5633,0.5,0.0,0.0,0.0,100,0,100,0,0.0,False,sensitivity analysis only; not threshold selection
+MFCC + Isolation Forest,section_02,99.0,0.030719964890123963,200,0.6603,0.5,0.0,0.0,0.0,100,0,100,0,0.0,False,sensitivity analysis only; not threshold selection
+MFCC + Isolation Forest,macro,99.0,,600,0.6105333333333333,0.49666666666666665,0.08333333333333333,0.0033333333333333335,0.006410256410256411,297,3,299,1,0.01,False,sensitivity analysis only; not threshold selection

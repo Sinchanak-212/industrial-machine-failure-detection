@@ -1,0 +1,81 @@
+experiment,section,threshold_percentile,threshold,score_direction,threshold_rule,validation_threshold_scope,validation_normals_used_for_threshold,validation_normals_scored_in_section,validation_false_positives,validation_observed_fpr,expected_fpr,test_data_used_for_threshold,test_labels_used_for_threshold
+Shared Mel CNN,section_00,90.0,0.01640138998627663,larger is more anomalous,anomaly if score > threshold,pooled across all three sections,303,101,19,0.18811881188118812,0.1,False,False
+Shared Mel CNN,section_01,90.0,0.01640138998627663,larger is more anomalous,anomaly if score > threshold,pooled across all three sections,303,101,8,0.07920792079207921,0.1,False,False
+Shared Mel CNN,section_02,90.0,0.01640138998627663,larger is more anomalous,anomaly if score > threshold,pooled across all three sections,303,101,4,0.039603960396039604,0.1,False,False
+Shared Mel CNN,macro,90.0,0.01640138998627663,larger is more anomalous,same pooled threshold across sections,pooled across all three sections,303,303,31,0.10231023102310231,0.1,False,False
+Shared Mel CNN,section_00,95.0,0.017373948730528353,larger is more anomalous,anomaly if score > threshold,pooled across all three sections,303,101,12,0.1188118811881188,0.05,False,False
+Shared Mel CNN,section_01,95.0,0.017373948730528353,larger is more anomalous,anomaly if score > threshold,pooled across all three sections,303,101,4,0.039603960396039604,0.05,False,False
+Shared Mel CNN,section_02,95.0,0.017373948730528353,larger is more anomalous,anomaly if score > threshold,pooled across all three sections,303,101,0,0.0,0.05,False,False
+Shared Mel CNN,macro,95.0,0.017373948730528353,larger is more anomalous,same pooled threshold across sections,pooled across all three sections,303,303,16,0.052805280528052806,0.05,False,False
+Shared Mel CNN,section_00,97.5,0.018356432672590017,larger is more anomalous,anomaly if score > threshold,pooled across all three sections,303,101,6,0.0594059405940594,0.025,False,False
+Shared Mel CNN,section_01,97.5,0.018356432672590017,larger is more anomalous,anomaly if score > threshold,pooled across all three sections,303,101,2,0.019801980198019802,0.025,False,False
+Shared Mel CNN,section_02,97.5,0.018356432672590017,larger is more anomalous,anomaly if score > threshold,pooled across all three sections,303,101,0,0.0,0.025,False,False
+Shared Mel CNN,macro,97.5,0.018356432672590017,larger is more anomalous,same pooled threshold across sections,pooled across all three sections,303,303,8,0.026402640264026403,0.025,False,False
+Shared Mel CNN,section_00,99.0,0.019507918357849135,larger is more anomalous,anomaly if score > threshold,pooled across all three sections,303,101,4,0.039603960396039604,0.01,False,False
+Shared Mel CNN,section_01,99.0,0.019507918357849135,larger is more anomalous,anomaly if score > threshold,pooled across all three sections,303,101,0,0.0,0.01,False,False
+Shared Mel CNN,section_02,99.0,0.019507918357849135,larger is more anomalous,anomaly if score > threshold,pooled across all three sections,303,101,0,0.0,0.01,False,False
+Shared Mel CNN,macro,99.0,0.019507918357849135,larger is more anomalous,same pooled threshold across sections,pooled across all three sections,303,303,4,0.013201320132013201,0.01,False,False
+Section-specific Mel CNN,section_00,90.0,0.024392401799559593,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,10,0.09900990099009901,0.1,False,False
+Section-specific Mel CNN,section_01,90.0,0.027993835508823395,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,10,0.09900990099009901,0.1,False,False
+Section-specific Mel CNN,section_02,90.0,0.02607850171625614,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,10,0.09900990099009901,0.1,False,False
+Section-specific Mel CNN,macro,90.0,,larger is more anomalous,section-specific thresholds; macro summary,section-specific,303,303,30,0.09900990099009901,0.1,False,False
+Section-specific Mel CNN,section_00,95.0,0.025971461087465286,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,5,0.04950495049504951,0.05,False,False
+Section-specific Mel CNN,section_01,95.0,0.028788059949874878,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,5,0.04950495049504951,0.05,False,False
+Section-specific Mel CNN,section_02,95.0,0.026857808232307434,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,5,0.04950495049504951,0.05,False,False
+Section-specific Mel CNN,macro,95.0,,larger is more anomalous,section-specific thresholds; macro summary,section-specific,303,303,15,0.04950495049504951,0.05,False,False
+Section-specific Mel CNN,section_00,97.5,0.02692908514291048,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,3,0.0297029702970297,0.025,False,False
+Section-specific Mel CNN,section_01,97.5,0.030325341038405895,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,3,0.0297029702970297,0.025,False,False
+Section-specific Mel CNN,section_02,97.5,0.027359716594219208,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,3,0.0297029702970297,0.025,False,False
+Section-specific Mel CNN,macro,97.5,,larger is more anomalous,section-specific thresholds; macro summary,section-specific,303,303,9,0.0297029702970297,0.025,False,False
+Section-specific Mel CNN,section_00,99.0,0.027659637853503227,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,1,0.009900990099009901,0.01,False,False
+Section-specific Mel CNN,section_01,99.0,0.03116455487906933,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,1,0.009900990099009901,0.01,False,False
+Section-specific Mel CNN,section_02,99.0,0.027473153546452522,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,1,0.009900990099009901,0.01,False,False
+Section-specific Mel CNN,macro,99.0,,larger is more anomalous,section-specific thresholds; macro summary,section-specific,303,303,3,0.009900990099009901,0.01,False,False
+Section-specific MFCC CNN,section_00,90.0,0.003057269612327218,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,10,0.09900990099009901,0.1,False,False
+Section-specific MFCC CNN,section_01,90.0,0.003981183748692274,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,10,0.09900990099009901,0.1,False,False
+Section-specific MFCC CNN,section_02,90.0,0.0029012002050876617,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,10,0.09900990099009901,0.1,False,False
+Section-specific MFCC CNN,macro,90.0,,larger is more anomalous,section-specific thresholds; macro summary,section-specific,303,303,30,0.09900990099009901,0.1,False,False
+Section-specific MFCC CNN,section_00,95.0,0.0034717905800789595,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,5,0.04950495049504951,0.05,False,False
+Section-specific MFCC CNN,section_01,95.0,0.004484925419092178,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,5,0.04950495049504951,0.05,False,False
+Section-specific MFCC CNN,section_02,95.0,0.0031985826790332794,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,5,0.04950495049504951,0.05,False,False
+Section-specific MFCC CNN,macro,95.0,,larger is more anomalous,section-specific thresholds; macro summary,section-specific,303,303,15,0.04950495049504951,0.05,False,False
+Section-specific MFCC CNN,section_00,97.5,0.003570916596800089,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,3,0.0297029702970297,0.025,False,False
+Section-specific MFCC CNN,section_01,97.5,0.004885131260380149,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,3,0.0297029702970297,0.025,False,False
+Section-specific MFCC CNN,section_02,97.5,0.003517676261253655,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,3,0.0297029702970297,0.025,False,False
+Section-specific MFCC CNN,macro,97.5,,larger is more anomalous,section-specific thresholds; macro summary,section-specific,303,303,9,0.0297029702970297,0.025,False,False
+Section-specific MFCC CNN,section_00,99.0,0.004075054079294205,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,1,0.009900990099009901,0.01,False,False
+Section-specific MFCC CNN,section_01,99.0,0.004981562960892916,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,1,0.009900990099009901,0.01,False,False
+Section-specific MFCC CNN,section_02,99.0,0.00368669955059886,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,1,0.009900990099009901,0.01,False,False
+Section-specific MFCC CNN,macro,99.0,,larger is more anomalous,section-specific thresholds; macro summary,section-specific,303,303,3,0.009900990099009901,0.01,False,False
+MFCC frame-level P95,section_00,90.0,0.00472552003338933,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,10,0.09900990099009901,0.1,False,False
+MFCC frame-level P95,section_01,90.0,0.006139146629720926,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,10,0.09900990099009901,0.1,False,False
+MFCC frame-level P95,section_02,90.0,0.004621195141226053,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,10,0.09900990099009901,0.1,False,False
+MFCC frame-level P95,macro,90.0,,larger is more anomalous,section-specific thresholds; macro summary,section-specific,303,303,30,0.09900990099009901,0.1,False,False
+MFCC frame-level P95,section_00,95.0,0.005331652704626322,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,5,0.04950495049504951,0.05,False,False
+MFCC frame-level P95,section_01,95.0,0.007275357376784086,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,5,0.04950495049504951,0.05,False,False
+MFCC frame-level P95,section_02,95.0,0.004766230471432209,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,5,0.04950495049504951,0.05,False,False
+MFCC frame-level P95,macro,95.0,,larger is more anomalous,section-specific thresholds; macro summary,section-specific,303,303,15,0.04950495049504951,0.05,False,False
+MFCC frame-level P95,section_00,97.5,0.005535021191462874,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,3,0.0297029702970297,0.025,False,False
+MFCC frame-level P95,section_01,97.5,0.008354761637747288,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,3,0.0297029702970297,0.025,False,False
+MFCC frame-level P95,section_02,97.5,0.005496652331203222,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,3,0.0297029702970297,0.025,False,False
+MFCC frame-level P95,macro,97.5,,larger is more anomalous,section-specific thresholds; macro summary,section-specific,303,303,9,0.0297029702970297,0.025,False,False
+MFCC frame-level P95,section_00,99.0,0.006629692856222391,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,1,0.009900990099009901,0.01,False,False
+MFCC frame-level P95,section_01,99.0,0.008784918114542961,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,1,0.009900990099009901,0.01,False,False
+MFCC frame-level P95,section_02,99.0,0.006568297278136015,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,1,0.009900990099009901,0.01,False,False
+MFCC frame-level P95,macro,99.0,,larger is more anomalous,section-specific thresholds; macro summary,section-specific,303,303,3,0.009900990099009901,0.01,False,False
+MFCC + Isolation Forest,section_00,90.0,-0.0015490702118083899,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,10,0.09900990099009901,0.1,False,False
+MFCC + Isolation Forest,section_01,90.0,-0.010938415703669435,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,10,0.09900990099009901,0.1,False,False
+MFCC + Isolation Forest,section_02,90.0,-0.012183455901832119,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,10,0.09900990099009901,0.1,False,False
+MFCC + Isolation Forest,macro,90.0,,larger is more anomalous,section-specific thresholds; macro summary,section-specific,303,303,30,0.09900990099009901,0.1,False,False
+MFCC + Isolation Forest,section_00,95.0,0.008647482987658606,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,5,0.04950495049504951,0.05,False,False
+MFCC + Isolation Forest,section_01,95.0,0.010340601839663344,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,5,0.04950495049504951,0.05,False,False
+MFCC + Isolation Forest,section_02,95.0,0.013638040239899119,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,5,0.04950495049504951,0.05,False,False
+MFCC + Isolation Forest,macro,95.0,,larger is more anomalous,section-specific thresholds; macro summary,section-specific,303,303,15,0.04950495049504951,0.05,False,False
+MFCC + Isolation Forest,section_00,97.5,0.020629267108503768,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,3,0.0297029702970297,0.025,False,False
+MFCC + Isolation Forest,section_01,97.5,0.022923065103456375,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,3,0.0297029702970297,0.025,False,False
+MFCC + Isolation Forest,section_02,97.5,0.022688160562298554,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,3,0.0297029702970297,0.025,False,False
+MFCC + Isolation Forest,macro,97.5,,larger is more anomalous,section-specific thresholds; macro summary,section-specific,303,303,9,0.0297029702970297,0.025,False,False
+MFCC + Isolation Forest,section_00,99.0,0.02932657579193476,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,1,0.009900990099009901,0.01,False,False
+MFCC + Isolation Forest,section_01,99.0,0.07800540111338361,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,1,0.009900990099009901,0.01,False,False
+MFCC + Isolation Forest,section_02,99.0,0.030719964890123963,larger is more anomalous,anomaly if score > threshold,section-specific,101,101,1,0.009900990099009901,0.01,False,False
+MFCC + Isolation Forest,macro,99.0,,larger is more anomalous,section-specific thresholds; macro summary,section-specific,303,303,3,0.009900990099009901,0.01,False,False
