@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800" width="1400" height="800" style="background:#ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <text x="700" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#0f172a">Box Plot Comparison: Normal vs Anomalous Reconstruction Error</text>
+  <text x="700" y="60" text-anchor="middle" font-size="13" fill="#64748b">Showing Quartiles, Medians (horizontal line), Means (diamond), and Validation P95 Threshold (dashed line)</text>
+  <g transform="translate(920, 25)">
+    <rect x="0" y="0" width="14" height="14" fill="#3b82f6" fill-opacity="0.3" stroke="#2563eb" stroke-width="1.5" rx="2"/>
+    <text x="20" y="11" font-size="12" fill="#334155">Normal</text>
+    <rect x="100" y="0" width="14" height="14" fill="#ef4444" fill-opacity="0.3" stroke="#dc2626" stroke-width="1.5" rx="2"/>
+    <text x="120" y="11" font-size="12" fill="#334155">Anomaly</text>
+    <polygon points="195,7 200,2 205,7 200,12" fill="#047857"/>
+    <text x="212" y="11" font-size="12" fill="#334155">Mean</text>
+    <line x1="265" y1="7" x2="295" y2="7" stroke="#7c3aed" stroke-width="2" stroke-dasharray="4,3"/>
+    <text x="302" y="11" font-size="12" fill="#334155">Val Threshold</text>
+  </g>
+  <rect x="90" y="90" width="605" height="640" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="392.5" y="116" text-anchor="middle" font-size="15" font-weight="bold" fill="#0f172a">SOURCE DOMAIN TEST</text>
+  <line x1="90" y1="715" x2="695" y2="715" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="82" y="719" text-anchor="end" font-size="10" fill="#64748b">0.0022</text>
+  <line x1="90" y1="616.6666666666666" x2="695" y2="616.6666666666666" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="82" y="620.6666666666666" text-anchor="end" font-size="10" fill="#64748b">0.0030</text>
+  <line x1="90" y1="518.3333333333334" x2="695" y2="518.3333333333334" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="82" y="522.3333333333334" text-anchor="end" font-size="10" fill="#64748b">0.0038</text>
+  <line x1="90" y1="420" x2="695" y2="420" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="82" y="424" text-anchor="end" font-size="10" fill="#64748b">0.0046</text>
+  <line x1="90" y1="321.6666666666667" x2="695" y2="321.6666666666667" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="82" y="325.6666666666667" text-anchor="end" font-size="10" fill="#64748b">0.0054</text>
+  <line x1="90" y1="223.33333333333331" x2="695" y2="223.33333333333331" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="82" y="227.33333333333331" text-anchor="end" font-size="10" fill="#64748b">0.0062</text>
+  <line x1="90" y1="125" x2="695" y2="125" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="82" y="129" text-anchor="end" font-size="10" fill="#64748b">0.0070</text>
+  <text x="190.83333333333331" y="718" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e293b">section_00</text>
+  <line x1="100" y1="554.857536764928" x2="281.66666666666663" y2="554.857536764928" stroke="#7c3aed" stroke-width="2" stroke-dasharray="4,3"/>
+  <text x="279.66666666666663" y="550.857536764928" text-anchor="end" font-size="9" font-weight="bold" fill="#7c3aed">Thresh: 0.00347</text>
+  <line x1="154.53333333333333" y1="692.1451477166117" x2="154.53333333333333" y2="628.4481904454786" stroke="#1d4ed8" stroke-width="1.5"/>
+  <line x1="154.53333333333333" y1="664.5874591756805" x2="154.53333333333333" y2="418.9072736738893" stroke="#1d4ed8" stroke-width="1.5"/>
+  <line x1="146.53333333333333" y1="692.1451477166117" x2="162.53333333333333" y2="692.1451477166117" stroke="#1d4ed8" stroke-width="1.5"/>
+  <line x1="146.53333333333333" y1="418.9072736738893" x2="162.53333333333333" y2="418.9072736738893" stroke="#1d4ed8" stroke-width="1.5"/>
+  <rect x="138.53333333333333" y="628.4481904454786" width="32" height="36.13926873020182" fill="#3b82f6" fill-opacity="0.3" stroke="#1d4ed8" stroke-width="1.5" rx="2"/>
+  <line x1="138.53333333333333" y1="649.9699571574979" x2="170.53333333333333" y2="649.9699571574979" stroke="#1d4ed8" stroke-width="2.5"/>
+  <polygon points="150.53333333333333,638.290463097995 154.53333333333333,634.290463097995 158.53333333333333,638.290463097995 154.53333333333333,642.290463097995" fill="#047857"/>
+  <text x="154.53333333333333" y="700" text-anchor="middle" font-size="10" fill="#1d4ed8">Norm</text>
+  <line x1="227.13333333333333" y1="685.6937335280408" x2="227.13333333333333" y2="608.0543021740654" stroke="#dc2626" stroke-width="1.5"/>
+  <line x1="227.13333333333333" y1="662.1372243550438" x2="227.13333333333333" y2="513.5228052004875" stroke="#dc2626" stroke-width="1.5"/>
+  <line x1="219.13333333333333" y1="685.6937335280408" x2="235.13333333333333" y2="685.6937335280408" stroke="#dc2626" stroke-width="1.5"/>
+  <line x1="219.13333333333333" y1="513.5228052004875" x2="235.13333333333333" y2="513.5228052004875" stroke="#dc2626" stroke-width="1.5"/>
+  <rect x="211.13333333333333" y="608.0543021740654" width="32" height="54.08292218097847" fill="#ef4444" fill-opacity="0.3" stroke="#dc2626" stroke-width="1.5" rx="2"/>
+  <line x1="211.13333333333333" y1="633.3897483736797" x2="243.13333333333333" y2="633.3897483736797" stroke="#dc2626" stroke-width="2.5"/>
+  <polygon points="223.13333333333333,629.8772424835958 227.13333333333333,625.8772424835958 231.13333333333333,629.8772424835958 227.13333333333333,633.8772424835958" fill="#047857"/>
+  <text x="227.13333333333333" y="700" text-anchor="middle" font-size="10" fill="#dc2626">Anom</text>
+  <line x1="291.66666666666663" y1="125" x2="291.66666666666663" y2="730" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <text x="392.49999999999994" y="718" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e293b">section_01</text>
+  <line x1="301.66666666666663" y1="431.4258549437521" x2="483.33333333333326" y2="431.4258549437521" stroke="#7c3aed" stroke-width="2" stroke-dasharray="4,3"/>
+  <text x="481.33333333333326" y="427.4258549437521" text-anchor="end" font-size="9" font-weight="bold" fill="#7c3aed">Thresh: 0.00448</text>
+  <line x1="356.19999999999993" y1="599.2249725211248" x2="356.19999999999993" y2="515.7168303699475" stroke="#1d4ed8" stroke-width="1.5"/>
+  <line x1="356.19999999999993" y1="577.9266313473036" x2="356.19999999999993" y2="289.9179081830503" stroke="#1d4ed8" stroke-width="1.5"/>
+  <line x1="348.19999999999993" y1="599.2249725211248" x2="364.19999999999993" y2="599.2249725211248" stroke="#1d4ed8" stroke-width="1.5"/>
+  <line x1="348.19999999999993" y1="289.9179081830503" x2="364.19999999999993" y2="289.9179081830503" stroke="#1d4ed8" stroke-width="1.5"/>
+  <rect x="340.19999999999993" y="515.7168303699475" width="32" height="62.20980097735605" fill="#3b82f6" fill-opacity="0.3" stroke="#1d4ed8" stroke-width="1.5" rx="2"/>
+  <line x1="340.19999999999993" y1="540.5495230137032" x2="372.19999999999993" y2="540.5495230137032" stroke="#1d4ed8" stroke-width="2.5"/>
+  <polygon points="352.19999999999993,538.3893210072272 356.19999999999993,534.3893210072272 360.19999999999993,538.3893210072272 356.19999999999993,542.3893210072272" fill="#047857"/>
+  <text x="356.19999999999993" y="700" text-anchor="middle" font-size="10" fill="#1d4ed8">Norm</text>
+  <line x1="428.79999999999995" y1="607.1951357404982" x2="428.79999999999995" y2="507.5619613304699" stroke="#dc2626" stroke-width="1.5"/>
+  <line x1="428.79999999999995" y1="578.4316541906803" x2="428.79999999999995" y2="165.61099053614123" stroke="#dc2626" stroke-width="1.5"/>
+  <line x1="420.79999999999995" y1="607.1951357404982" x2="436.79999999999995" y2="607.1951357404982" stroke="#dc2626" stroke-width="1.5"/>
+  <line x1="420.79999999999995" y1="165.61099053614123" x2="436.79999999999995" y2="165.61099053614123" stroke="#dc2626" stroke-width="1.5"/>
+  <rect x="412.79999999999995" y="507.5619613304699" width="32" height="70.86969286021042" fill="#ef4444" fill-opacity="0.3" stroke="#dc2626" stroke-width="1.5" rx="2"/>
+  <line x1="412.79999999999995" y1="541.2921189845889" x2="444.79999999999995" y2="541.2921189845889" stroke="#dc2626" stroke-width="2.5"/>
+  <polygon points="424.79999999999995,535.1466992111758 428.79999999999995,531.1466992111758 432.79999999999995,535.1466992111758 428.79999999999995,539.1466992111758" fill="#047857"/>
+  <text x="428.79999999999995" y="700" text-anchor="middle" font-size="10" fill="#dc2626">Anom</text>
+  <line x1="493.3333333333333" y1="125" x2="493.3333333333333" y2="730" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <text x="594.1666666666666" y="718" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e293b">section_02</text>
+  <line x1="503.3333333333333" y1="588.1428502437805" x2="685" y2="588.1428502437805" stroke="#7c3aed" stroke-width="2" stroke-dasharray="4,3"/>
+  <text x="683" y="584.1428502437805" text-anchor="end" font-size="9" font-weight="bold" fill="#7c3aed">Thresh: 0.00320</text>
+  <line x1="557.8666666666667" y1="675.4317033899813" x2="557.8666666666667" y2="637.3735322345817" stroke="#1d4ed8" stroke-width="1.5"/>
+  <line x1="557.8666666666667" y1="665.6158080844851" x2="557.8666666666667" y2="515.382174286236" stroke="#1d4ed8" stroke-width="1.5"/>
+  <line x1="549.8666666666667" y1="675.4317033899813" x2="565.8666666666667" y2="675.4317033899813" stroke="#1d4ed8" stroke-width="1.5"/>
+  <line x1="549.8666666666667" y1="515.382174286236" x2="565.8666666666667" y2="515.382174286236" stroke="#1d4ed8" stroke-width="1.5"/>
+  <rect x="541.8666666666667" y="637.3735322345817" width="32" height="28.24227584990342" fill="#3b82f6" fill-opacity="0.3" stroke="#1d4ed8" stroke-width="1.5" rx="2"/>
+  <line x1="541.8666666666667" y1="652.5446907640314" x2="573.8666666666667" y2="652.5446907640314" stroke="#1d4ed8" stroke-width="2.5"/>
+  <polygon points="553.8666666666667,645.246311249841 557.8666666666667,641.246311249841 561.8666666666667,645.246311249841 557.8666666666667,649.246311249841" fill="#047857"/>
+  <text x="557.8666666666667" y="700" text-anchor="middle" font-size="10" fill="#1d4ed8">Norm</text>
+  <line x1="630.4666666666667" y1="673.8918216192758" x2="630.4666666666667" y2="617.4327355802203" stroke="#dc2626" stroke-width="1.5"/>
+  <line x1="630.4666666666667" y1="658.1457532827214" x2="630.4666666666667" y2="334.25831105178924" stroke="#dc2626" stroke-width="1.5"/>
+  <line x1="622.4666666666667" y1="673.8918216192758" x2="638.4666666666667" y2="673.8918216192758" stroke="#dc2626" stroke-width="1.5"/>
+  <line x1="622.4666666666667" y1="334.25831105178924" x2="638.4666666666667" y2="334.25831105178924" stroke="#dc2626" stroke-width="1.5"/>
+  <rect x="614.4666666666667" y="617.4327355802203" width="32" height="40.71301770250113" fill="#ef4444" fill-opacity="0.3" stroke="#dc2626" stroke-width="1.5" rx="2"/>
+  <line x1="614.4666666666667" y1="644.9979056784089" x2="646.4666666666667" y2="644.9979056784089" stroke="#dc2626" stroke-width="2.5"/>
+  <polygon points="626.4666666666667,631.7860397715347 630.4666666666667,627.7860397715347 634.4666666666667,631.7860397715347 630.4666666666667,635.7860397715347" fill="#047857"/>
+  <text x="630.4666666666667" y="700" text-anchor="middle" font-size="10" fill="#dc2626">Anom</text>
+  <rect x="745" y="90" width="605" height="640" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="1047.5" y="116" text-anchor="middle" font-size="15" font-weight="bold" fill="#0f172a">TARGET DOMAIN TEST</text>
+  <line x1="745" y1="715" x2="1350" y2="715" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="737" y="719" text-anchor="end" font-size="10" fill="#64748b">0.0022</text>
+  <line x1="745" y1="616.6666666666666" x2="1350" y2="616.6666666666666" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="737" y="620.6666666666666" text-anchor="end" font-size="10" fill="#64748b">0.0027</text>
+  <line x1="745" y1="518.3333333333334" x2="1350" y2="518.3333333333334" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="737" y="522.3333333333334" text-anchor="end" font-size="10" fill="#64748b">0.0032</text>
+  <line x1="745" y1="420" x2="1350" y2="420" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="737" y="424" text-anchor="end" font-size="10" fill="#64748b">0.0038</text>
+  <line x1="745" y1="321.6666666666667" x2="1350" y2="321.6666666666667" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="737" y="325.6666666666667" text-anchor="end" font-size="10" fill="#64748b">0.0043</text>
+  <line x1="745" y1="223.33333333333331" x2="1350" y2="223.33333333333331" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="737" y="227.33333333333331" text-anchor="end" font-size="10" fill="#64748b">0.0048</text>
+  <line x1="745" y1="125" x2="1350" y2="125" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="737" y="129" text-anchor="end" font-size="10" fill="#64748b">0.0054</text>
+  <text x="845.8333333333334" y="718" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e293b">section_00</text>
+  <line x1="755" y1="473.37216845960234" x2="936.6666666666666" y2="473.37216845960234" stroke="#7c3aed" stroke-width="2" stroke-dasharray="4,3"/>
+  <text x="934.6666666666666" y="469.37216845960234" text-anchor="end" font-size="9" font-weight="bold" fill="#7c3aed">Thresh: 0.00347</text>
+  <line x1="809.5333333333333" y1="680.6515746395862" x2="809.5333333333333" y2="598.0880837594586" stroke="#1d4ed8" stroke-width="1.5"/>
+  <line x1="809.5333333333333" y1="658.4758382908841" x2="809.5333333333333" y2="367.3099941967953" stroke="#1d4ed8" stroke-width="1.5"/>
+  <line x1="801.5333333333333" y1="680.6515746395862" x2="817.5333333333333" y2="680.6515746395862" stroke="#1d4ed8" stroke-width="1.5"/>
+  <line x1="801.5333333333333" y1="367.3099941967953" x2="817.5333333333333" y2="367.3099941967953" stroke="#1d4ed8" stroke-width="1.5"/>
+  <rect x="793.5333333333333" y="598.0880837594586" width="32" height="60.38775453142546" fill="#3b82f6" fill-opacity="0.3" stroke="#1d4ed8" stroke-width="1.5" rx="2"/>
+  <line x1="793.5333333333333" y1="627.4941743732178" x2="825.5333333333333" y2="627.4941743732178" stroke="#1d4ed8" stroke-width="2.5"/>
+  <polygon points="805.5333333333333,615.0470966000587 809.5333333333333,611.0470966000587 813.5333333333333,615.0470966000587 809.5333333333333,619.0470966000587" fill="#047857"/>
+  <text x="809.5333333333333" y="700" text-anchor="middle" font-size="10" fill="#1d4ed8">Norm</text>
+  <line x1="882.1333333333333" y1="668.0990334040425" x2="882.1333333333333" y2="520.8564716130888" stroke="#dc2626" stroke-width="1.5"/>
+  <line x1="882.1333333333333" y1="622.5767786255136" x2="882.1333333333333" y2="243.34943870217785" stroke="#dc2626" stroke-width="1.5"/>
+  <line x1="874.1333333333333" y1="668.0990334040425" x2="890.1333333333333" y2="668.0990334040425" stroke="#dc2626" stroke-width="1.5"/>
+  <line x1="874.1333333333333" y1="243.34943870217785" x2="890.1333333333333" y2="243.34943870217785" stroke="#dc2626" stroke-width="1.5"/>
+  <rect x="866.1333333333333" y="520.8564716130888" width="32" height="101.72030701242477" fill="#ef4444" fill-opacity="0.3" stroke="#dc2626" stroke-width="1.5" rx="2"/>
+  <line x1="866.1333333333333" y1="590.905377105901" x2="898.1333333333333" y2="590.905377105901" stroke="#dc2626" stroke-width="2.5"/>
+  <polygon points="878.1333333333333,571.0066308782189 882.1333333333333,567.0066308782189 886.1333333333333,571.0066308782189 882.1333333333333,575.0066308782189" fill="#047857"/>
+  <text x="882.1333333333333" y="700" text-anchor="middle" font-size="10" fill="#dc2626">Anom</text>
+  <line x1="946.6666666666666" y1="125" x2="946.6666666666666" y2="730" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <text x="1047.5" y="718" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e293b">section_01</text>
+  <line x1="956.6666666666666" y1="287.5899898093711" x2="1138.3333333333333" y2="287.5899898093711" stroke="#7c3aed" stroke-width="2" stroke-dasharray="4,3"/>
+  <text x="1136.3333333333333" y="283.5899898093711" text-anchor="end" font-size="9" font-weight="bold" fill="#7c3aed">Thresh: 0.00448</text>
+  <line x1="1011.1999999999999" y1="540.2559233870984" x2="1011.1999999999999" y2="383.7439798848636" stroke="#1d4ed8" stroke-width="1.5"/>
+  <line x1="1011.1999999999999" y1="497.37325449139996" x2="1011.1999999999999" y2="171.9050900783219" stroke="#1d4ed8" stroke-width="1.5"/>
+  <line x1="1003.1999999999999" y1="540.2559233870984" x2="1019.1999999999999" y2="540.2559233870984" stroke="#1d4ed8" stroke-width="1.5"/>
+  <line x1="1003.1999999999999" y1="171.9050900783219" x2="1019.1999999999999" y2="171.9050900783219" stroke="#1d4ed8" stroke-width="1.5"/>
+  <rect x="995.1999999999999" y="383.7439798848636" width="32" height="113.62927460653634" fill="#3b82f6" fill-opacity="0.3" stroke="#1d4ed8" stroke-width="1.5" rx="2"/>
+  <line x1="995.1999999999999" y1="435.18849975182127" x2="1027.1999999999998" y2="435.18849975182127" stroke="#1d4ed8" stroke-width="2.5"/>
+  <polygon points="1007.1999999999999,429.3575707797475 1011.1999999999999,425.3575707797475 1015.1999999999999,429.3575707797475 1011.1999999999999,433.3575707797475" fill="#047857"/>
+  <text x="1011.1999999999999" y="700" text-anchor="middle" font-size="10" fill="#1d4ed8">Norm</text>
+  <line x1="1083.8" y1="544.396142188456" x2="1083.8" y2="379.05839659830264" stroke="#dc2626" stroke-width="1.5"/>
+  <line x1="1083.8" y1="483.6394282066053" x2="1083.8" y2="197.69055994802352" stroke="#dc2626" stroke-width="1.5"/>
+  <line x1="1075.8" y1="544.396142188456" x2="1091.8" y2="544.396142188456" stroke="#dc2626" stroke-width="1.5"/>
+  <line x1="1075.8" y1="197.69055994802352" x2="1091.8" y2="197.69055994802352" stroke="#dc2626" stroke-width="1.5"/>
+  <rect x="1067.8" y="379.05839659830264" width="32" height="104.58103160830268" fill="#ef4444" fill-opacity="0.3" stroke="#dc2626" stroke-width="1.5" rx="2"/>
+  <line x1="1067.8" y1="422.4908168896718" x2="1099.8" y2="422.4908168896718" stroke="#dc2626" stroke-width="2.5"/>
+  <polygon points="1079.8,425.6909209913521 1083.8,421.6909209913521 1087.8,425.6909209913521 1083.8,429.6909209913521" fill="#047857"/>
+  <text x="1083.8" y="700" text-anchor="middle" font-size="10" fill="#dc2626">Anom</text>
+  <line x1="1148.3333333333333" y1="125" x2="1148.3333333333333" y2="730" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <text x="1249.1666666666665" y="718" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e293b">section_02</text>
+  <line x1="1158.3333333333333" y1="523.471283726589" x2="1340" y2="523.471283726589" stroke="#7c3aed" stroke-width="2" stroke-dasharray="4,3"/>
+  <text x="1338" y="519.471283726589" text-anchor="end" font-size="9" font-weight="bold" fill="#7c3aed">Thresh: 0.00320</text>
+  <line x1="1212.8666666666666" y1="645.198079914724" x2="1212.8666666666666" y2="580.7658287548635" stroke="#1d4ed8" stroke-width="1.5"/>
+  <line x1="1212.8666666666666" y1="612.0350220987327" x2="1212.8666666666666" y2="380.9422490947109" stroke="#1d4ed8" stroke-width="1.5"/>
+  <line x1="1204.8666666666666" y1="645.198079914724" x2="1220.8666666666666" y2="645.198079914724" stroke="#1d4ed8" stroke-width="1.5"/>
+  <line x1="1204.8666666666666" y1="380.9422490947109" x2="1220.8666666666666" y2="380.9422490947109" stroke="#1d4ed8" stroke-width="1.5"/>
+  <rect x="1196.8666666666666" y="580.7658287548635" width="32" height="31.269193343869233" fill="#3b82f6" fill-opacity="0.3" stroke="#1d4ed8" stroke-width="1.5" rx="2"/>
+  <line x1="1196.8666666666666" y1="597.394951905618" x2="1228.8666666666666" y2="597.394951905618" stroke="#1d4ed8" stroke-width="2.5"/>
+  <polygon points="1208.8666666666666,591.5485370328571 1212.8666666666666,587.5485370328571 1216.8666666666666,591.5485370328571 1212.8666666666666,595.5485370328571" fill="#047857"/>
+  <text x="1212.8666666666666" y="700" text-anchor="middle" font-size="10" fill="#1d4ed8">Norm</text>
+  <line x1="1285.4666666666667" y1="632.6342245061988" x2="1285.4666666666667" y2="574.7837693296024" stroke="#dc2626" stroke-width="1.5"/>
+  <line x1="1285.4666666666667" y1="607.6980220774822" x2="1285.4666666666667" y2="374.8288385253838" stroke="#dc2626" stroke-width="1.5"/>
+  <line x1="1277.4666666666667" y1="632.6342245061988" x2="1293.4666666666667" y2="632.6342245061988" stroke="#dc2626" stroke-width="1.5"/>
+  <line x1="1277.4666666666667" y1="374.8288385253838" x2="1293.4666666666667" y2="374.8288385253838" stroke="#dc2626" stroke-width="1.5"/>
+  <rect x="1269.4666666666667" y="574.7837693296024" width="32" height="32.9142527478798" fill="#ef4444" fill-opacity="0.3" stroke="#dc2626" stroke-width="1.5" rx="2"/>
+  <line x1="1269.4666666666667" y1="589.8836432431851" x2="1301.4666666666667" y2="589.8836432431851" stroke="#dc2626" stroke-width="2.5"/>
+  <polygon points="1281.4666666666667,582.4318424341856 1285.4666666666667,578.4318424341856 1289.4666666666667,582.4318424341856 1285.4666666666667,586.4318424341856" fill="#047857"/>
+  <text x="1285.4666666666667" y="700" text-anchor="middle" font-size="10" fill="#dc2626">Anom</text>
+  <text transform="translate(28, 400) rotate(-90)" text-anchor="middle" font-size="13" font-weight="bold" fill="#334155">Reconstruction Error MSE</text>
+</svg>

@@ -14,3 +14,7 @@ data/raw/
 *.log
 .DS_Store
 Thumbs.db
+.venv/
+.venv312/
+.venv/
+.venv312/
